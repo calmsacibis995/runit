@@ -1,8 +1,14 @@
+/* Copyright (c) 2004-2014 G. Pape
+ * Copyright (c) 2022 Stefanos Stefanidis
+ * runit is licensed under the 3-clause BSD License.
+ */
+
 #include <sys/types.h>
 #include <time.h>
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <unistd.h>
+#include <grp.h>
 #include "sgetopt.h"
 #include "error.h"
 #include "strerr.h"
