@@ -1,6 +1,10 @@
-/* Public domain. */
+/* Copyright (c) 2004-2014 G. Pape.
+ * Copyright (c) 2022 Stefanos Stefanidis.
+ * runit is licensed under the 3-clause BSD License.
+ */
 
 #include <unistd.h>
+#include <grp.h>
 
 int main()
 {
